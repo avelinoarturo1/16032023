@@ -7,8 +7,8 @@ $(document).ready(function(){
     });
 
     $(window).on('scroll load',function(){
-        $('#menu').toggleClass('fa-times');
-        $('header').toggleClass('toggle');
+        $('#menu').removeClass('fa-times');
+        $('header').removeClass('toggle');
 
         if($(window).scrollTop() > 0){
             $('.top').show();
